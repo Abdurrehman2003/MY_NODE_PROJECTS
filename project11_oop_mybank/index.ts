@@ -80,9 +80,9 @@ class Customer {
 // Creating bank accounts
 
 const accounts: BankAccount[] = [
-  new BankAccount(1001, 500),
-  new BankAccount(1002, 1000),
-  new BankAccount(1003, 2000),
+  new BankAccount(1006, 500),
+  new BankAccount(1007, 1000),
+  new BankAccount(1008, 2000),
 ];
 
 // Creating Customers
