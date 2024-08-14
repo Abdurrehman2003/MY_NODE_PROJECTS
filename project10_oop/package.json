@@ -1,0 +1,23 @@
+{
+  "name": "@abdurrehman2003/project10_oop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "This TypeScript OOP application allows users to manage and interact with students and staff. You can add, view, or remove members, demonstrating key OOP concepts like classes, objects, inheritance, and encapsulation.",
+  "dependencies": {
+    "inquirer": "^9.2.23"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}

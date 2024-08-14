@@ -1,0 +1,24 @@
+{
+  "name": "@abdurrehman2003/project09_countdown_timer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": "main.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "This TypeScript-based countdown timer app lets users set a countdown in minutes via Inquirer. It displays the remaining time in real-time, updating every second, and notifies the user when the time is up.",
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "inquirer": "^9.2.23"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}

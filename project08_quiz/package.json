@@ -1,0 +1,23 @@
+{
+  "name": "@abdurrehman2003/project08_quiz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": "quiz.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "This TypeScript-based quiz system presents students with multiple-choice questions using Inquirer. It collects answers, checks correctness, and provides a final score, allowing users to assess their knowledge interactively.",
+  "dependencies": {
+    "inquirer": "^9.2.23"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}

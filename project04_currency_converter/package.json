@@ -1,0 +1,23 @@
+{
+  "name": "@abdurrehman2003/project04_currency_converter",
+  "version": "1.0.1",
+  "main": "index.js",
+  "type": "module",
+  "bin": "main.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "This simple currency converter application allows users to convert an amount from one currency to another using predefined exchange rates. Users can select the source and target currencies from a list and input the amount to be converted. The application then calculates and displays the converted amount.",
+  "dependencies": {
+    "inquirer": "^9.2.23"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}

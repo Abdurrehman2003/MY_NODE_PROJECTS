@@ -1,0 +1,23 @@
+{
+  "name": "@abdurrehman2003/project06_student_management_system",
+  "version": "1.0.1",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "This Student Management System allows users to enroll in courses, pay tuition fees, and view their enrollment status. It prompts for the student’s name, course selection, payment method, and confirms enrollment with status details.",
+  "dependencies": {
+    "inquirer": "^9.2.23"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}

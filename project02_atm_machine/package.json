@@ -1,0 +1,23 @@
+{
+  "name": "@abdurrehman2003/project02_atm_machine",
+  "version": "1.0.1",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "atm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "This ATM machine program verifies the user's PIN to provide secure access. Users can check their current balance or withdraw money, with the system ensuring they have sufficient funds before allowing a withdrawal. It offers basic banking operations in a simple and user-friendly manner.",
+  "dependencies": {
+    "inquirer": "^9.2.23"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}

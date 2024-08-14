@@ -1,0 +1,23 @@
+{
+  "name": "@abdurrehman2003/project07_adventure_game",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "This adventure game lets you choose an opponent (Skeleton, Alien, or Zombie) and engage in a battle of survival. You can attack, drink a health potion, or run for your life, aiming to outlast your opponent.",
+  "dependencies": {
+    "inquirer": "^9.2.23"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}

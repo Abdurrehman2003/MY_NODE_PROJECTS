@@ -1,0 +1,23 @@
+{
+  "name": "@abdurrehman2003/project01_cli_numbers_guessing_game",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abdul Rehman",
+  "license": "ISC",
+  "description": "A simple number guessing game built with TypeScript, where users can try to guess a randomly generated number within a specified range.",
+  "dependencies": {
+    "@abdurrehman2003/cli_number_guessing_game": "^1.0.0",
+    "inquirer": "^9.2.23"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}

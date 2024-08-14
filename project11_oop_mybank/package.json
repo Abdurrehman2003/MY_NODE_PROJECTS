@@ -1,0 +1,23 @@
+{
+  "name": "@abdurrehman2003/project11_oop_mybank",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "This OOP MyBank console application allows users to manage their bank accounts. Customers can deposit or withdraw money, check their balance, and handle transactions with realistic conditions like fees for large deposits.",
+  "dependencies": {
+    "inquirer": "^9.2.23"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
