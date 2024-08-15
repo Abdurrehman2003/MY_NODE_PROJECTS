@@ -38,7 +38,7 @@ To get started with these projects, follow these steps:
    ```bash
    node path/to/exercise.js
 
-Feel free to explore and modify the exercises to deepen your understanding of TypeScript and Node.js!
+Feel free to explore the code and play around with the projects to deepen your understanding of TypeScript and Node.js!
 
 ## Contributing
 
